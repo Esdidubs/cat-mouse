@@ -1,6 +1,8 @@
 body {
 	text-align: center;
-	margin-top: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 canvas {
@@ -14,4 +16,15 @@ h1 {
 
 p {
 	margin: 5px auto;
+}
+
+.buttons {
+    margin: 20px;
+    order: 2;
+}
+
+button {
+    width: 50px;
+    height: 35px;
+    margin: 5px;
 }
