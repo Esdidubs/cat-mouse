@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+	margin-top: 5px;
+}
+
+canvas {
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
+
+p {
+	margin: 5px auto;
+}
