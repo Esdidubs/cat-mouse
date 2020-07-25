@@ -1,9 +1,6 @@
 body {
 	text-align: center;
     margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-items: start;
 }
 
 canvas {
@@ -32,4 +29,8 @@ button {
     border: none;
     background-color: black;
     color: white;
+}
+
+header {
+    margin-bottom: 10px;
 }

@@ -227,15 +227,6 @@ function update(game) {
 }
 
 
-
-window.onload = function(){ 
-    document.getElementById("up").onclick = function() {onKeyPress(Direction.Up)};
-    document.getElementById("left").onclick = function() {onKeyPress(Direction.Left)};
-    document.getElementById("down").onclick = function() {onKeyPress(Direction.Down)};
-    document.getElementById("right").onclick = function() {onKeyPress(Direction.Right)};
-};
-
-
 function onKeyPress(direction) {
 	if (direction == Direction.Up && player.y > 0 && (turn == 'player' || turn == 'player2')) {
 		if (!(game.getDot(player.x, player.y - 1) == 'BLACK')) {
